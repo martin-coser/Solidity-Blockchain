@@ -140,6 +140,41 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "listEvents",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "nombre",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "descripcion",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "fecha",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "existe",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct AgendaEventos.Evento[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -196,11 +231,11 @@
 	},
 	"sources": {
 		"AgendaEventos.sol": {
-			"keccak256": "0xac512a78bd538caca1e6f750a1e436f82c04b41e9b1ad13fe6f24d5c3f83c4da",
+			"keccak256": "0x81ae0997281da46db069bf7d12be650f5b6cc49bb71a8eb6abe1186ef5089c83",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2faa47d815fd2d87f1f1f7d7c35f0e74b18189f951e021883feca2582f5f9929",
-				"dweb:/ipfs/QmVCUU8RXVC7xkfW3X5YHVXHGE3DQhSdeioASV7GmeAjzG"
+				"bzz-raw://4ac8a9e2b2b2acc9f160432ee32d3fde2a768e6c29fbdf55429f4f9601460d12",
+				"dweb:/ipfs/QmRMhKMJxR8sGqN7LDuoLKPhRbcELWM6yTf5M3fGYx4FUD"
 			]
 		}
 	},

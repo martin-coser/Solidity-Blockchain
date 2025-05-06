@@ -54,6 +54,22 @@ contract AgendaEventos {
         emit EventoEliminado(msg.sender, id);
     }
 
+        // Función para listar todos los eventos de un usuario
+    function listEvents() public view returns (Evento[] memory) {
+        // Obtenemos el número de eventos del usuario
+        uint numEventos = contadorEventos[msg.sender];
+
+        // Creamos un array dinámico para almacenar los eventos
+        Evento[] memory eventosUsuario = new Evento[](numEventos);
+
+        // Llenamos el array con los eventos del usuario
+        for (uint i = 0; i < numEventos; i++) {
+            eventosUsuario[i] = eventos[msg.sender][i];
+        }
+
+        return eventosUsuario;
+    }
+
     
 
     event EventoModificado(address indexed creador, uint id, string nombre);
