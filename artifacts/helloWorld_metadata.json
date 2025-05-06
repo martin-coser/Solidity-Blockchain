@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -63,9 +63,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"helloWorld.sol": "helloWorld"
+			"AgendaEventos.sol": "helloWorld"
 		},
-		"evmVersion": "london",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -77,7 +77,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"helloWorld.sol": {
+		"AgendaEventos.sol": {
 			"keccak256": "0x9a145d3a0d8b7d5bc0e569b9c1ad248dd1b84d8c1fdc789b7c2e18c57601b8bd",
 			"license": "MIT",
 			"urls": [
